@@ -1,4 +1,4 @@
-# Aprendendo JavaScript - Pedro 🧑‍💻
+# Aprendendo JavaScript - PHTSILVA 🧑‍💻
 
 Bem-vindo ao meu repositório! Este é o espaço onde guardo minhas tarefas e projetos enquanto aprendo **JavaScript**. A cada aula, novos desafios surgem e serão adicionados aqui. 🚀  
 
