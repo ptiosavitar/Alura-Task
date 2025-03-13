@@ -14,4 +14,5 @@ Este repositório serve para armazenar o conteúdo que estou desenvolvendo ao lo
 Ainda estou nas primeiras aulas do curso e adicionando os exercícios conforme vou avançando. Em breve, novos conteúdos e projetos serão atualizados. Fique de olho nas atualizações! 🎯
 
 👨‍💻 Desenvolvido por: Pedro
+<p></p>
 📅 Última atualização: 13/03/2025
