@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    
+}
+
+strong{
+    color: #C219FA;
+    
+}
+
+span{
+    color: #C219FA;
+    border: 1px solid #C219FA;
+    padding: 10px;;
+    font-family: Impact;
+}
+
+h1{
+    color: #ffffff;
+
+}
+
+p{
+    color: #ffffff;
+    font-weight: 10;
+    font-family: Arial;
+}
+
