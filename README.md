@@ -4,7 +4,7 @@ Bem-vindo ao meu repositório! Aqui, compartilho minha jornada nos cursos de HTM
 📚 Sobre os Cursos
 Este repositório serve para armazenar os conteúdos desenvolvidos ao longo dos cursos:
 
-✅ "HTML e CSS: Ambientes de Desenvolvimento, Estrutura de Arquivos e Tags"
+✅ "HTML e CSS: Ambientes de Desenvolvimento, Estrutura de Arquivos e Tags"<p></p>
 ✅ "HTML e CSS: Classes, Posicionamento e Flexbox"
 
 Cada módulo traz novos conceitos e práticas, que estou aplicando em pequenos projetos.
