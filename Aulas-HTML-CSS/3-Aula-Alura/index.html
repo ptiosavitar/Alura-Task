@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu_link" href="index.html">Home</a>
+            <a class="cabecalho__menu_link" href="about.html">Sobre Min</a>
+        </nav>
+
+    </header>
     <main class="apresentacao">
         
         <section class="apresentacao__conteudo">
@@ -18,14 +24,28 @@
             especialidade em React, HTML e CSS.  Ajudo pequenos negócios e designers a 
             colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__redes">
-                <a class="apresentacao__redes__link" href="https://www.instagram.com/pedrohtdss/">Instagram</a>
-                <a class="apresentacao__redes__link" href="https://github.com/ptiosavitar">GitHub</a>
+                <h2 class="apresentacao__redes_sub">ACESSE MINHAS REDES:</h2>
+                <a class="apresentacao__redes__link" href="https://github.com/ptiosavitar">
+                    <img src="assets/github.png" alt="Imagem Icone github">
+                    GitHub
+                </a>
+                <a class="apresentacao__redes__link" href="https://www.linkedin.com/in/pedro-henrique-thomazelli-da-silva-09925028b/">
+                    <img src="assets/linkedin.png" alt="Imagem Icone linkedin">
+                    LinkedIn
+                </a>
+                <a class="apresentacao__redes__link" href="https://www.twitch.tv/fejaocomfarofa">
+                    <img src="assets/twitch.png" alt="Imagem Icone twitch">
+                    twitch
+                </a>
+
             </div>
         </section>
-        <img src="Imagem.png" alt="Imagen de uma mulher com um notebook">
+        <img src="./assets/Imagem.png" alt="Imagen de uma mulher com um notebook">
         
     </main>
-    <foooter></foooter>
+    <footer class="rodape">
+        <p> DESENVOLVIDO POR PHTSILVA</p>
+    </footer>
     
 </body>
 </html>
