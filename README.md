@@ -24,5 +24,5 @@ Agora que já explorei os conceitos iniciais de HTML e CSS, meu próximo objetiv
 
 📌 Em breve, mais atualizações!
 
-👨‍💻 Desenvolvido por: Pedro
+👨‍💻 Desenvolvido por: Pedro<p></p>
 📅 Última atualização: 26/03/2025
