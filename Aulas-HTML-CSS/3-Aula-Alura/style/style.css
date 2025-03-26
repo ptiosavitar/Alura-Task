@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-primaria: #000000;
+    --cor-segundaria: #f6f6f6;
+    --cor-tercearia: #22D4FD;
+    --cor-hover: #272727;
+    --font-principal: "krona one", sans-serif;
+    --font-secundaria: "montserrat", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +17,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: black;
-    color: white;
-    /* height: 100vh; */
+    background-color: var(--cor-primaria);
+    color: var(--cor-segundaria);
     
 }
 
@@ -23,16 +32,16 @@ body {
 }
 
 .cabecalho__menu_link{
-    font-family: "montserrat", sans-serif;
+    font-family: var(--font-secundaria);
     font-weight: 600;
     font-size: 24px;
-    color: #22D4FD;
+    color: var(--cor-tercearia);
     text-decoration: none;
 }
 
 
 h1{
-    color: #ffffff;
+    color: var(--cor-segundaria);
 
 }
 
@@ -54,19 +63,19 @@ gap: 40px;
 
 .apresentacao__titulo{
     font-size: 36px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-secundaria);
     font-weight: 400;
    
     
 }
 .titulo-destaque{
-    color:blue
+    color: var(--cor-tercearia);
 
 }
 
 .apresentacao__texto{
     font-size: 24px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--font-secundaria);
 }
 
 .apresentacao__redes{
@@ -78,14 +87,13 @@ gap: 32px;
 }
 
 .apresentacao__redes_sub{
-    font-family: "Krone one", sans-serif;
+    font-family: var(--font-principal);
     font-weight: 400;
     font-size: 26px;
 }
 
 
 .apresentacao__redes__link{
-    /* background-color: #22dfd2; */
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -93,28 +101,28 @@ gap: 32px;
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-secundaria);
     padding: 21.5px 0;
     text-decoration: none;
-    color: #f6f6f6;
+    color: var(--cor-segundaria);
     font-weight: 600;
-    border: 2px solid #22dfd2;
+    border: 2px solid var(--cor-tercearia);
 
 }
- /* insira aqui sua personalização */
+
 .apresentacao__redes__link:hover{
 
-    background-color: #272727;
+    background-color: var(--cor-hover);
     scale: 0.8;
 }
 
 
 .rodape {
     padding: 24px;
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-tercearia);
     text-align: center;
-    font-family: "montserrat", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
