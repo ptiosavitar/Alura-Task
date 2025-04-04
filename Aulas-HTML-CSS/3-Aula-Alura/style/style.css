@@ -52,17 +52,18 @@ h1{
     align-items: center;
     justify-content: space-between;
     padding: 5% 15%;
+    gap : 82px;
 }
 
 .apresentacao__conteudo{
-width: 615px;
+width: 50%;
 display: flex;
 flex-direction: column; 
 gap: 40px;
 }
 
 .apresentacao__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--font-secundaria);
     font-weight: 400;
    
@@ -74,7 +75,7 @@ gap: 40px;
 }
 
 .apresentacao__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
 }
 
@@ -89,18 +90,18 @@ gap: 32px;
 .apresentacao__redes_sub{
     font-family: var(--font-principal);
     font-weight: 400;
-    font-size: 26px;
+    font-size: 1.5;
 }
 
 
-.apresentacao__redes__link{
+.apresentacao__redes__navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 388px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
     padding: 21.5px 0;
     text-decoration: none;
@@ -110,12 +111,15 @@ gap: 32px;
 
 }
 
-.apresentacao__redes__link:hover{
+.apresentacao__redes__navegacao:hover{
 
     background-color: var(--cor-hover);
     scale: 0.8;
 }
 
+.apresentacao__imagem{
+    width: 50%;
+}
 
 .rodape {
     padding: 24px;
@@ -123,6 +127,24 @@ gap: 32px;
     background-color: var(--cor-tercearia);
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
