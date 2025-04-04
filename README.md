@@ -9,7 +9,8 @@ Este repositório contém os conteúdos desenvolvidos ao longo dos cursos, abord
 
 ✅ **HTML e CSS: Ambientes de Desenvolvimento, Estrutura de Arquivos e Tags**  
 ✅ **HTML e CSS: Classes, Posicionamento e Flexbox**  
-✅ **HTML e CSS: Cabeçalho, Footer e Variáveis CSS** *(Novo!)*
+✅ **HTML e CSS: Cabeçalho, Footer e Variáveis CSS**  
+✅ **HTML e CSS: Trabalhando com Responsividade e Publicação de Projetos** *(Novo!)*
 
 Cada módulo traz conceitos práticos que são aplicados em pequenos projetos e desafios. 🏗
 
